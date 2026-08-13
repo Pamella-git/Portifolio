@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Comecando a estilizacao do header abaixo */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+}
+
+#minha-foto {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.caixa-foto-nome {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.caixa-botoes-header button img {
+  width: 20px;
+}
+
+.caixa-botoes-header button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.3); 
+  box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.3);
+}
+
+#curriculo {
+  background-color: #b469e2;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.caixa-botoes-header {
+  display: flex;
+  gap: 10px;
+}
+
+/* Comecando o banner principal abaixo */
+.espacamento {
+  padding: 0px 80px;
+}
+
+#banner {
+  /* VH = view height */
+  height: 85vh;
+  background-color: #b469e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+}
+
+#banner h1 {
+  font-size: 50px;
+}
+
+#banner p {
+  width: 70%;
+  font-size: 15px;
+}
+
+#banner button {
+  border: none;
+  padding: 15px 60px;
+  border-radius: 5px;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.3); 
+  box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.3);
+  margin-right: 20px;
+  transition: 0.3s ease;
+}
+
+#banner button:hover {
+  cursor: pointer;
+  transform: translateY(-5px) scale(1.03);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Iniciando o tecnologias abaixo */
+#tecnologias {
+  background-color: #F0F0F0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#caixa-tecnologias {
+  display: flex;
+  justify-content: space-between;
+}
+
+#caixa-tecnologias div {
+  background-color: white;
+  padding: 25px 50px;
+  border-radius: 5px;
+}
+
+#tecnologias h3 {
+  margin-bottom: 50px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+/* Iniciando o caixa final abaixo */
+#caixa-final {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+#bater-papo {
+  width: 35%;
+}
+
+#bater-papo h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#bater-papo p {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+#bater-papo button {
+  border: none;
+  background-color: #b469e2;
+  padding: 15px 50px;
+  border-radius: 5px;
+  color: white;
+  -webkit-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.3); 
+  box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.3);
+}
+
+#projetos > h6 {
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#projetos > h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#projetos {
+  width: 45%;
+}
+
+.card-projeto h6 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.texto-tecnologias {
+  font-weight: 300;
+  font-size: 13px;
+   margin-bottom: 15px;
+}
+
+.texto-tecnologias span {
+  background-color: #c086e45e;
+  color: #9525db;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.texto-descricao {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 15px;
+  width: 75%;
+}
+
+.card-projeto button {
+  border: none;
+  padding: 6px 30px;
+  background-color: white;
+  color: black;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  margin-right: 15px;
+  font-size: 13px;
+}
+
+.card-projeto {
+  margin-bottom: 30px;
+}
+
+/* Iniciando o footer abaixo */
+footer {
+  height: 200px;
+  background-color: #b469e293;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+
+footer img {
+  width: 30px;
+}
