@@ -308,3 +308,12 @@ footer img {
     margin-bottom: 8px;
   }
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
